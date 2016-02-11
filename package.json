@@ -1,0 +1,29 @@
+{
+  "name": "modweb-server",
+  "version": "1.0.0",
+  "description": "Server that takes care of cookies, compression, etc. Everything but the modweb site object.",
+  "main": "lib/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modwebjs/server.git"
+  },
+  "keywords": [
+    "modweb"
+  ],
+  "author": "Modweb project",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modwebjs/server/issues"
+  },
+  "homepage": "https://github.com/modwebjs/server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "clone": "^1.0.2",
+    "connect": "^3.4.1",
+    "modweb-middleware": "^1.0.1",
+    "st": "^1.1.0"
+  }
+}
